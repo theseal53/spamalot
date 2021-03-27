@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Spamalot">
+        <activity android:name=".Pending"></activity>
+        <activity android:name=".Facts" />
+        <activity android:name=".Help" />
+        <activity android:name=".AttackCanceled" />
+        <activity android:name=".AttackComplete" />
+        <activity android:name=".AttackDetails" />
+        <activity android:name=".AttackList" />
+        <activity
+            android:name=".HomeScreenActivity"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/Theme.Spamalot.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
